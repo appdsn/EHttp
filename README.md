@@ -5,7 +5,20 @@ EHttp是一个基于OkHttp3.0，RxJava2.0和Retrofit2.0封装的Http网络请求
 多文件上传，文件下载，图片加载，上传下载进度监听，设置自定义拦截器，
 cookie管理，https证书设置，自定义Retrofit接口，多种Callback处理返回的不同数据类型。
 
+添加依赖
+=
+```java
+allprojects {
+  repositories {
+      ...
+      maven { url 'https://jitpack.io' }
+  }
+}
 
+dependencies {
+  compile 'com.github.appdsn:EHttp:2.0'
+}
+```
 使用方法
 ==
 
